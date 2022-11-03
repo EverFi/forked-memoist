@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    memoist (0.16.2.everfi.1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    benchmark-ips (2.10.0)
+    minitest (5.16.3)
+    rake (13.0.6)
+
+PLATFORMS
+  arm64-darwin-21
+
+DEPENDENCIES
+  benchmark-ips
+  bundler
+  memoist!
+  minitest (~> 5.10)
+  rake
+
+BUNDLED WITH
+   2.3.22
